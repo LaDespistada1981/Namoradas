@@ -24,7 +24,7 @@ body {
 }
 
 .geral {
-  width: 900px;
+  width: 100%;
   min-height: 100%;
   position: absolute;
 }
@@ -61,20 +61,6 @@ iframe {
   justify-content: center;
   align-items: center;
   height: 15vh;
-}
-
-main .container {
-  display: grid;
-  grid-template-areas: "carrossel texto";
-  grid-template-columns: 60% 40%;
-}
-
-.carrossel {
-  grid-area: carrossel;
-}
-
-.text-box {
-  grid-area: texto;
 }
 
 footer img {
